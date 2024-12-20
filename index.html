@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellness Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Wellness for Body & Soul</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Client</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Discover the Joy of Nurturing Yourself</h2>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>At Wellness for Life, we believe that true well-being comes from a balance of mind, body, and soul. Our holistic wellness products and services are carefully crafted to support you on your journey toward a healthier, more fulfilling life. Whether you're seeking relaxation, rejuvenation, or a deeper connection with your inner self, our offerings are designed to nurture both your physical and mental well-being. From personalized wellness plans to natural, eco-friendly products, we are here to guide and support you every step of the way. Let Wellness for Life be your trusted partner in achieving a balanced, peaceful, and vibrant lifestyle.</p>
+</section>
+
+<section class="services" id="services">
+  <h2>Our Services</h2>
+  <div class="card"  id="pic1">
+    <h3>Personalized Wellness Plans</h3>
+    <p>We create tailor-made plans to help you achieve your wellness goals.</p>
+    <button id="btn" onclick="wellnessPlan()">Explore</button>
+    </div>
+  <div class="card" id="pic2">
+    <h3>Mindfulness & Meditation</h3>
+    <p>Practice mindfulness and find peace through our guided meditation sessions.</p>
+    <button id="btn" onclick="meditationPlan()">Explore</button>  
+  </div>
+  <div class="card" id="pic3">
+    <h3>Natural Products</h3>
+    <p>Experience the benefits of our 100% organic and natural product line.</p>
+    <button id="btn" onclick="natProducts()">Explore</button>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <p class="mask">"I feel healthier and happier thanks to WELLNESS FOR LIFE amazing services!" - <b>Chandramani Gajbhare.</b></p>
+  <p class="mask">"Their products have made such a difference in my daily life." - <b>Utkarsh Rudrawar.</b></p>
+  <p class="mask">"WELLNESS FOR LIFE has transformed my lifestyle completely. I'm more energized and balanced!" - <b>Sneha Patil</b> </p>
+  <p class="mask">"I can't imagine my day without their fantastic wellness products. Highly recommended!" - <b>Rohan Deshmukh</b></p>
+  <p class="mask">"Thanks to WELLNESS FOR LIFE, I feel more relaxed and in control of my health." - <b>Pooja Kulkarni</b></p>
+  <p class="mask">"Their services have truly improved my mental and physical well-being!" - <b>Amit Shinde</b></p>
+  <p class="mask">"WELLNESS FOR LIFE's offerings have been life-changing. My stress levels are so much lower now!" - <b>Priya Joshi</b></p>
+  <p class="mask">"AND MANY MORE CLIENTS ARE HAPPY WITH US"</p>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Ready to Start Your Wellness Journey?</h2>
+  <button onclick="showAlert()">Contact Us</button>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p><strong>Phone:</strong> +91 7358999925/26</p>
+      <p><strong>Email:</strong> info@avaesa.com</p>
+      <p><strong>Address:</strong> Chennai, India</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/avaesastore/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111392.png" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/avaesastore/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" /></a>
+        <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111703.png" alt="Twitter" /></a>
+        <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111532.png" alt="LinkedIn" /></a>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Wellness For Body And Soul. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script>
+    function showAlert()
+    {
+        alert("Thanks For Contacting Us... Your Presence Is Pleasure To Serve You....")
+    }
+
+    function wellnessPlan()
+    {
+        alert("Thanks For Reaching Us Out, Our Wellness Plans Are Coming Soon....")
+    }
+
+    function meditationPlan()
+    {
+        alert("Thanks For Reaching Us Out, Our Meditations Videos And Activities Are Coming Soon....")
+    }
+
+    function natProducts()
+    {
+        alert("Thanks For Reaching Us Out, Our Wellness Products Are Coming Soon....")
+    }
+</script>
+</body>
+</html>
